@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/css-registro.css">
+</head>
+<title>Registrarme</title>
+
+<body>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ProductosLista.html">Automotr&iacutez</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ProductosLista.html">Belleza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ProductosLista.html">Jard&iacuten</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ProductosLista.html">M&aacutes Vendido</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   M&aacutes Categorias
+                                </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item" href="#">Categoria 1</a>
+
+                            <a class="dropdown-item" href="#">Categoria 2</a>
+
+                            <a class="dropdown-item" href="#">Categoria 3</a>
+
+                            <a class="dropdown-item" href="#">Categoria 4</a>
+
+                            <a class="dropdown-item" href="#">Categoria 5</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ayuda</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav align-self-end">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Buscar...">
+                        <a href="#" class="btn btn-info"><img src="navbar/lupa_blanco.png" width="20px" height="20px"></img>
+                        </a>
+                    </form>
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="#" class="btn btn-success">Inicia Sesion</a>
+                        <a href="#" class="btn btn-primary">Registrate</a>
+                    </form>
+                    <li class="nav-item ">
+                        <a class="navbar-brand order-3" href="#"> <img src="navbar/carro_blanco.png" width="40px" height="40px"></img>
+                        </a>
+                    </li>
+                </ul>
+                <!--
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                        -->
+            </div>
+        </nav>
+        <div class="container">
+            <br>
+            <form id="formInput" method="GET">
+                <div class="form-group">
+                    <label for="exampleUser">Nombres</label>
+                    <input type="user" pattern="[A-Z]{1}+[a-z]" class="form-control" id="exampleUser" aria-describedby="emailHelp" placeholder="Nombres">
+                    <small id="My_user" class="form-text text-muted">Escribir ambos nombres en caso de tener ambos.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleUser">Apellido Paterno</label>
+                    <input type="user" pattern="[a-zA-Z0-9]" class="form-control" id="exampleUser" aria-describedby="emailHelp" placeholder="Apellido Paterno">
+                    <small id="My_AP" class="form-text text-muted">Escribir apellido paterno.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleUser">Apellido Materno</label>
+                    <input type="user" pattern="[a-zA-Z]" class="form-control" id="exampleUser" aria-describedby="emailHelp" placeholder="Apellido Materno">
+                    <small id="My_AM" class="form-text text-muted">Escribir apellido materno.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="text" pattern="[a-zA-Z0-9_.]+@[a-zA-Z0-9]+.com(.mx)?" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="correo@dominio.com">
+                    <small id="My_email" class="form-text text-muted">Direcci&oacuten de correo electr&oacutenico</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleUser">Nickname (Opcional)</label>
+                    <input type="tel"  class="form-control" id="exampleInputTelephone" aria-describedby="telephoneHelp" placeholder="(XX)XX-XX-XX-XX">
+                    <small id="My_alias" class="form-text text-muted">Telefono</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Contrase&ntildea</label>
+                    <input type="password" pattern="[a-zA-Z0-9?*_!?]+" minlength="8" class="form-control" id="My_password" placeholder="Clave de acceso">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </body>
+
+</body>
+
+</html>

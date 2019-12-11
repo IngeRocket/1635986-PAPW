@@ -1,0 +1,44 @@
+div.container {
+    background-color: #f2f2f2;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+li.nav-item>a.nav-link {
+    border-left: 1px solid #bbb;
+}
+
+li.nav-item>a.navbar-brand {
+    margin-left: 5px;
+}
+
+.btn-success {
+    margin-right: 5px;
+}
+
+.btn-secondary {
+    margin-right: 5px;
+}
+
+.btn-info {
+    margin-right: 10px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+#nembe {
+    background-color: #f2f2f2;
+}
+
+.avatar{
+    vertical-align: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
